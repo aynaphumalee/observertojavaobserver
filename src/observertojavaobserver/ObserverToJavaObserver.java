@@ -15,11 +15,11 @@ public class ObserverToJavaObserver {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Senior obj1 = new Senior(); 
-        Marketing obj2 = new Marketing();         
+        Senior observer1 = new Senior(); 
+        Marketing observer2 = new Marketing();         
         HeadQuater observable = new HeadQuater();
-        observable.addObserver(obj1); 
-        observable.addObserver(obj2);
+        observable.addObserver(observer1); 
+        observable.addObserver(observer2);
         observable.setSomeData(6); 
         observable.setSomeData(7);
     }   
