@@ -17,6 +17,6 @@ public class Marketing implements Observer {
     public void update(Observable o, Object arg) {
        System.out.println(
                arg + " (marketing) headquater is updated to "
-                       + ((HeadQuater)o).getSomeData()); //Convert object o to HeadQuater เพื่อที่จะเรียก method getSomeData ได้
+                       + ((HeadQuater)o).getSomeData());
     }   
 }
